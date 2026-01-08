@@ -47,15 +47,22 @@ nav{
  nav .menu{
     display: flex;
     list-style: none;
-    text-decoration-style: none;
+    text-decoration: none;
     gap: 51px;
     align-items: center;
  }
 
  nav .menu a{
     font-size: 15px;
-    
+    text-decoration: none;
+    color: black;
 
+ }
+
+ nav .menu a:hover{
+    background-color: #FD6E0A;
+    color: white;
+    
  }
 
  /* sharred style */
@@ -65,7 +72,7 @@ nav{
     font-size: 15px;
     border: none;
     border-radius: 7px;
-    padding: 18px 25px;
+    padding: 15px 20px;
     color: white;
     font-weight: 550;
  }
